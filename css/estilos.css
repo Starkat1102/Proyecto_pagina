@@ -1,0 +1,12 @@
+.btn-outline{
+    background-color: transparent;
+    
+}
+
+.btn-outline:hover{
+    background: rgb(74,133,181);
+    background: -moz-linear-gradient(90deg, rgba(74,133,181,1) 25%, rgba(115,88,88,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(74,133,181,1) 25%, rgba(115,88,88,1) 100%);
+    background: linear-gradient(90deg, rgba(74,133,181,1) 25%, rgba(115,88,88,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4a85b5",endColorstr="#735858",GradientType=1);
+}
