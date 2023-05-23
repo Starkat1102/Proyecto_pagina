@@ -1,12 +1,14 @@
-body{
+/* Index */
+#Home{
     background-image: url(/img/Recirsos_pixelart/fondo.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 main{
-    z-index: 1000;
+    margin-bottom: 12rem;
 }
+
 
 .btn-outline{
     background-color: transparent;
@@ -33,5 +35,11 @@ main{
 /* Navegador */
 
 .navegador{
+    background-color: #fff;
+}
+
+/* Presentacion_pagina */
+
+.Presentacion_pagina{
     background-color: #fff;
 }
