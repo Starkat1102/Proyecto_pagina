@@ -1,3 +1,9 @@
+body{
+    background-image: url(/img/Recirsos_pixelart/fondo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 main{
     z-index: 1000;
 }
@@ -13,4 +19,19 @@ main{
     background: -webkit-linear-gradient(90deg, rgba(74,133,181,1) 25%, rgba(115,88,88,1) 100%);
     background: linear-gradient(90deg, rgba(74,133,181,1) 25%, rgba(115,88,88,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4a85b5",endColorstr="#735858",GradientType=1);
+}
+
+
+/* Modales */
+
+.Presentacion{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+} 
+
+/* Navegador */
+
+.navegador{
+    background-color: #fff;
 }
