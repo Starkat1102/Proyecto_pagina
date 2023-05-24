@@ -36,10 +36,36 @@ main{
 
 .navegador{
     background-color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 /* Presentacion_pagina */
 
-.Presentacion_pagina{
+#Presentacion_pagina{
     background-color: #fff;
 }
+
+/* Ilustracion_pagina */
+
+#Ilustracion_pagina{
+    background-color: #fff;
+}
+
+.navegador_ilustracion{
+    position: sticky;
+    top: 0;
+}
+
+/* Diseño_pagina */
+
+#Diseño_pagina{
+    background-color: #fff;
+}
+
+/*Animacion_pagina*/
+
+#Animacion_pagina{
+    background-color: #fff;
+}
+

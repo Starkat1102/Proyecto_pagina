@@ -4,12 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentacion</title>
+    <title>Ilustracion</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/estilos.css">
 </head>
-<body>
+<body id="Ilustracion_pagina">
+    <header class="cotainer_ilustracion">
+        <div class="row justify-content-end navegador_ilustracion caja me-2 border-bottom border-end border-5 border-dark">
+            <div class="col-1">
     
+            </div>
+            <div class="col-1 caja me-2 border-start border-end border-5 border-dark">
+                <a href="/index.html">
+                    <img src="/img/Recursos_icons/remove_FILL0_wght400_GRAD0_opsz48.svg" class="img-fluid" alt="">
+                </a>
+            </div>
+            <div class="col-1">
+                    <a href="/index.html">
+                        <img src="/img/Recursos_icons/close_FILL0_wght400_GRAD0_opsz48.svg" class="img-fluid im" alt="Boton_Salida">
+                    </a>
+            </div>
+        </div>
+        <section class="container-main row align-items-lg-center caja me-2 border-end border-bottom border-5 border-dark">
+            <main class="col-md-6 col-lg-7">
+                <h1 class="display-1"></h1>
+            </main>
+            <aside class="col-md-6 col-lg-4 caja me-2 border-start border-5 border-dark aside_presentacion">
+                <div class="row">
+                    <div class="col">
+                        <div id="carouselId_Ilusracion" class="carousel slide container-fluid" data-bs-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-bs-target="#carouselId_Ilusracion" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                                <li data-bs-target="#carouselId_Ilusracion" data-bs-slide-to="1" aria-label="Second slide"></li>
+                                <li data-bs-target="#carouselId_Ilusracion" data-bs-slide-to="2" aria-label="Third slide"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <img src="/img/Recirsos_pixelart/1.jpg" class="w-100 d-block" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/img/Recirsos_pixelart/2.jpg" class="w-100 d-block" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/img/Recirsos_pixelart/3.jpg" class="w-100 d-block" alt="Third slide">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselId_Ilusracion" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselId_Ilusracion" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+    </header>
     <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
