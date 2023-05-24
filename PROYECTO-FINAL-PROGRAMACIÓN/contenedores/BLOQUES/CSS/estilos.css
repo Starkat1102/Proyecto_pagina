@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+body {
+  margin: 0;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+#instructions {
+  display: none;
+}
+
+#results,
+body:hover #instructions {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(116, 57, 57, 0.75);
+}
+
+a:visited {
+  color: inherit;
+}
+
+#results {
+  display: none;
+  cursor: default;
+}
+
+#results .content,
+#instructions .content {
+  max-width: 300px;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+#score {
+  position: absolute;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  top: 30px;
+  right: 30px;
+}
+
+#skillshare,
+#skillshare-card {
+  display: none;
+  color: black;
+}
+
+@media (min-height: 425px) {
+  #skillshare {
+    z-index: 50;
+    width: 100px;
+    height: 70px;
+    position: fixed;
+    bottom: 20px;
+    transform: scale(0.8);
+    transition: transform 0.5s;
+  }
+
+  #skillshare {
+    display: block;
+    left: 20px;
+    color: white;
+    font-size: 1.8em;
+    font-weight: extra-bold;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+  }
+
+  #skillshare:hover,
+  #skillshare:focus {
+    transform: scale(0.9);
+    color: #002333;
+  }
+
+  #skillshare:hover + #skillshare-card {
+    z-index: 49;
+    display: block;
+    position: fixed;
+    bottom: 12px;
+    width: 300px;
+    background-color: white;
+  }
+
+  #skillshare:hover + #skillshare-card {
+    left: 10px;
+    padding: 25px 25px 25px 130px;
+  }
+}

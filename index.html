@@ -16,8 +16,8 @@
         <div class="row justify-content-around row_1">
             <div class="col-4">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#modalId_1">
-                  <img src="/img/Recursos_icons/user.png" class="w-25 d-block img-fluid thumbnail" alt="">
+                <button type="button" class="btn btn-lg btn_index" data-bs-toggle="modal" data-bs-target="#modalId_1">
+                  <img src="/img/Recursos_icons/user.png" class="w-25 d-block" alt="">
                 </button>
                 
                 <!-- Modal -->
@@ -49,10 +49,10 @@
                 </script>
                 
             </div>
-            <div class="col-4">
+            <div class="col-4 align-items-end">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-lg-end " data-bs-toggle="modal" data-bs-target="#modalId_2">
-                    <img src="/img/Recursos_icons/Imagen.png" class="w-25 img-fluid img-end" alt="">
+                <button type="button" class="btn btn-lg-end btn_index" data-bs-toggle="modal" data-bs-target="#modalId_2">
+                    <img src="/img/Recursos_icons/Imagen.png" class="w-25 d-block" alt="">
                 </button>
                 
                 <!-- Modal -->
@@ -89,7 +89,7 @@
         <div class="row justify-content-around row_2">
             <div class="col-4">
                <!-- Button trigger modal -->
-               <button type="button" class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#modalId_3">
+               <button type="button" class="btn btn-lg btn_index" data-bs-toggle="modal" data-bs-target="#modalId_3">
                 <img src="/img/Recursos_icons/videos.png" class="w-25 d-block" alt="">
                </button>
                
@@ -124,7 +124,7 @@
             </div>
             <div class="col-4 align-items-end">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-lg" data-bs-toggle="modal" data-bs-target="#modalId_4">
+                <button type="button" class="btn btn-lg btn_index" data-bs-toggle="modal" data-bs-target="#modalId_4">
                   <img src="/img/Recursos_icons/animacion.png" class="w-25 d-block" alt="">
                 </button>
                 
@@ -138,9 +138,6 @@
                                     </div>
                             <div class="modal-body Presentacion">
                                 <a href="/DiseñoFrond.html"><video src="/img/videos/DISEÑO WEB - 1080.mp4" class="container-fluid" type="video/mp4" crossorigin="anonymous" autoplay loop muted playsinline></video></a>
-                                <div class="container-fluid">
-                                    Add rows here
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -165,12 +162,12 @@
         <div class="row justify-content-around">
             <div class="col-4">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">
-                  Launch
+                <button type="button" class="btn btn-lg btn_index" data-bs-toggle="modal" data-bs-target="#modalId_5">
+                  <img src="/img/Recursos_icons/Carro.png" class="w-25 d-block" alt="">
                 </button>
                 
                 <!-- Modal -->
-                <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                <div class="modal fade" id="modalId_5" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                                 <div class="modal-header">
@@ -178,16 +175,14 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                             <div class="modal-body Presentacion">
-                                <div class="container-fluid">
-                                    Add rows here
-                                </div>
+                                <a href="/PROYECTO-FINAL-PROGRAMACIÓN/contenedores/CARROS/index.html"><video src="/img/videos/Three.js Game Tutorial Learn Three.js while building a traffic run game - 720.mp4" class="container-fluid" type="video/mp4" crossorigin="anonymous" autoplay loop muted playsinline></video></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 
                 <script>
-                    var modalId = document.getElementById('modalId');
+                    var modalId = document.getElementById('modalId_5');
                 
                     modalId.addEventListener('show.bs.modal', function (event) {
                           // Button that triggered the modal
@@ -202,12 +197,12 @@
             </div>
             <div class="col-4 align-items-end">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">
-                  Launch
+                <button type="button" class="btn btn-lg btn_index" data-bs-toggle="modal" data-bs-target="#modalId_6">
+                    <img src="/img/Recursos_icons/cubo.png" class="w-25 d-block" alt="">
                 </button>
                 
                 <!-- Modal -->
-                <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                <div class="modal fade" id="modalId_6" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                                 <div class="modal-header">
@@ -215,170 +210,14 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                             <div class="modal-body Presentacion">
-                                <div class="container-fluid">
-                                    Add rows here
-                                </div>
+                                <a href="/PROYECTO-FINAL-PROGRAMACIÓN/contenedores/BLOQUES/index.html"><video src="/img/videos/CUBOS - Google Chrome 2023-05-23 22-25-02.mp4" type="video/mp4" class="container-fluid" crossorigin="anonymous" autoplay loop muted playsinline></video></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 
                 <script>
-                    var modalId = document.getElementById('modalId');
-                
-                    modalId.addEventListener('show.bs.modal', function (event) {
-                          // Button that triggered the modal
-                          let button = event.relatedTarget;
-                          // Extract info from data-bs-* attributes
-                          let recipient = button.getAttribute('data-bs-whatever');
-                
-                        // Use above variables to manipulate the DOM
-                    });
-                </script>
-                
-            </div>
-        </div>
-        <br>
-        <div class="row justify-content-around">
-            <div class="col-4">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">
-                  Launch
-                </button>
-                
-                <!-- Modal -->
-                <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                                <div class="modal-header">
-                                        <h5 class="modal-title" id="modalTitleId">Modal title</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                            <div class="modal-body Presentacion">
-                                <div class="container-fluid">
-                                    Add rows here
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <script>
-                    var modalId = document.getElementById('modalId');
-                
-                    modalId.addEventListener('show.bs.modal', function (event) {
-                          // Button that triggered the modal
-                          let button = event.relatedTarget;
-                          // Extract info from data-bs-* attributes
-                          let recipient = button.getAttribute('data-bs-whatever');
-                
-                        // Use above variables to manipulate the DOM
-                    });
-                </script>
-                
-            </div>
-            <div class="col-4 align-items-end">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">
-                  Launch
-                </button>
-                
-                <!-- Modal -->
-                <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                                <div class="modal-header">
-                                        <h5 class="modal-title" id="modalTitleId">Modal title</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                            <div class="modal-body Presentacion">
-                                <div class="container-fluid">
-                                    Add rows here
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <script>
-                    var modalId = document.getElementById('modalId');
-                
-                    modalId.addEventListener('show.bs.modal', function (event) {
-                          // Button that triggered the modal
-                          let button = event.relatedTarget;
-                          // Extract info from data-bs-* attributes
-                          let recipient = button.getAttribute('data-bs-whatever');
-                
-                        // Use above variables to manipulate the DOM
-                    });
-                </script>
-                
-            </div>
-        </div>
-        <br>
-        <div class="row justify-content-around">
-            <div class="col-4">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">
-                  Launch
-                </button>
-                
-                <!-- Modal -->
-                <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                                <div class="modal-header">
-                                        <h5 class="modal-title" id="modalTitleId">Modal title</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                            <div class="modal-body Presentacion">
-                                <div class="container-fluid">
-                                    Add rows here
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <script>
-                    var modalId = document.getElementById('modalId');
-                
-                    modalId.addEventListener('show.bs.modal', function (event) {
-                          // Button that triggered the modal
-                          let button = event.relatedTarget;
-                          // Extract info from data-bs-* attributes
-                          let recipient = button.getAttribute('data-bs-whatever');
-                
-                        // Use above variables to manipulate the DOM
-                    });
-                </script>
-                
-            </div>
-            <div class="col-4 align-items-end">
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modalId">
-                  Launch
-                </button>
-                
-                <!-- Modal -->
-                <div class="modal fade" id="modalId" tabindex="-1" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                                <div class="modal-header">
-                                        <h5 class="modal-title" id="modalTitleId">Modal title</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                            <div class="modal-body Presentacion">
-                                <div class="container-fluid">
-                                    Add rows here
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <script>
-                    var modalId = document.getElementById('modalId');
+                    var modalId = document.getElementById('modalId_6');
                 
                     modalId.addEventListener('show.bs.modal', function (event) {
                           // Button that triggered the modal
