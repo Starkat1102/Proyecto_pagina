@@ -6,13 +6,12 @@
 }
 
 main{
-    margin-bottom: 15.5rem;
+    margin-top: 2rem;
 }
 
 
 .btn-outline{
     background-color: transparent;
-    
 }
 
 .btn-outline:hover{
@@ -22,17 +21,39 @@ main{
     background: linear-gradient(90deg, rgba(74,133,181,1) 25%, rgba(115,88,88,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4a85b5",endColorstr="#735858",GradientType=1);
 }
+.btn_index{
+    color: #000;
+}
 
-.btn_index:hover{
-    background: rgb(74,133,181);
-    background: -moz-linear-gradient(90deg, rgba(74,133,181,1) 25%, rgba(115,88,88,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(74,133,181,1) 25%, rgba(115,88,88,1) 100%);
-    background: linear-gradient(90deg, rgba(74,133,181,1) 25%, rgba(115,88,88,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4a85b5",endColorstr="#735858",GradientType=1);
-    opacity: 50%;
+.btn_index p{
+    background-color: #fff;
+    border-radius: 5px;
 }
 
 
+.card{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(34,29,253,1) 50%, rgba(252,69,69,1) 100%);
+    position: sticky;
+    top: 0rem;
+    color: #000;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.carousel-inner{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.text-icon{
+    color: #fff;
+}
 
 /* Modales */
 
