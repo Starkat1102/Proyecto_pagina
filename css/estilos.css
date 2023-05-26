@@ -36,16 +36,16 @@ main{
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(34,29,253,1) 50%, rgba(252,69,69,1) 100%);
     position: sticky;
     top: 0rem;
-    color: #000;
+    color: #fff;
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
-.carousel-inner{
+/* .carousel-inner{
     background-color: #fff;
     border-radius: 5px;
     padding: 1rem;
-}
+} */
 
 .navbar{
     background-color: black;
@@ -74,7 +74,21 @@ main{
 /* Presentacion_pagina */
 
 #Presentacion_pagina{
-    background-color: #fff;
+    background-color: #000;
+    color: #fff;
+    text-align: justify;
+}
+
+.presentacion_info{
+    background-color: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7 ;
+}
+
+
+.texto_pad{
+    padding-left: 2rem;
+    padding-right: 2rem;
+
 }
 
 /* Ilustracion_pagina */
