@@ -197,7 +197,8 @@ main{
 /* Ilustracion_pagina */
 
 #Ilustracion_pagina{
-    background-color: #fff;
+    background: rgb(241,159,223);
+    background: linear-gradient(180deg, rgba(241,159,223,1) 0%, rgba(28,17,50,1) 100%);
 }
 
 .navegador_ilustracion{
@@ -205,23 +206,43 @@ main{
     top: 0;
 }
 
+.Titulo_ilustraciones{
+    color: #fff;
+    margin-top: 10rem;
+}
+
 .Seccion_ilustraciones{
     margin: 10rem 5rem 10rem 5rem;
     box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7 ;
 }
 
-/* Diseño_pagina */
-
-#Diseño_pagina{
-    background-color: #fff;
+.Texto_ilustraciones{
+    color: #fff;
+    margin-bottom: 10rem;
 }
 
-/*Animacion_pagina*/
-
-#Animacion_pagina{
-    background-color: #fff;
+.card{
+    padding: 1rem;
 }
 
+.Cartas_ilustraciones{
+    color: #fff;
+}
+
+.carta_1{
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+.carta_2{
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+.carta_3{
+    -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	animation: heartbeat 1.5s ease-in-out infinite both;
+}
 
 /* Key frames */
 

@@ -1,3 +1,60 @@
+window.sr = ScrollReveal();
+
+sr.reveal('.Paralax',{
+    duration: 3000,
+    origin: 'top',
+    distance: '-100px'
+});
+
+sr.reveal('.mensaje_presentacion',{
+    duration: 3000,
+    origin: 'bottom',
+    distance: '-100px'
+});
+
+sr.reveal('.mensaje_presentacion',{
+    duration: 3000,
+    origin: 'bottom',
+    distance: '-100px'
+});
+
+sr.reveal('.video_presentacion_1',{
+    duration: 3000,
+    origin: 'left',
+    distance: '-100px'
+});
+
+sr.reveal('.texto_presentacion_1',{
+    duration: 3000,
+    origin: 'right',
+    distance: '-100px'
+});
+
+sr.reveal('.video_presentacion_2',{
+    duration: 3000,
+    origin: 'right',
+    distance: '-100px'
+});
+
+sr.reveal('.texto_presentacion_2',{
+    duration: 3000,
+    origin: 'left',
+    distance: '-100px'
+});
+
+sr.reveal('.video_presentacion_3',{
+    duration: 3000,
+    origin: 'left',
+    distance: '-100px'
+});
+
+sr.reveal('.texto_presentacion_3',{
+    duration: 3000,
+    origin: 'right',
+    distance: '-100px'
+});
+
+
 let nube1 = document.getElementById('nube1')
 let Montania_2 = document.getElementById('Montania_2')
 let nube2 = document.getElementById('nube2')
