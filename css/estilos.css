@@ -21,9 +21,7 @@ main{
     background: linear-gradient(90deg, rgba(74,133,181,1) 25%, rgba(115,88,88,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4a85b5",endColorstr="#735858",GradientType=1);
 }
-.btn_index{
-    color: #000;
-}
+
 
 .btn_index p{
     background: #2F1661;
@@ -138,6 +136,34 @@ main{
     margin-left: 10vw;   
 }
 
+.Paralax #slogan_2{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    line-height: 0.8em;
+    white-space: nowrap;
+    transform: translateY(-10rem);
+    transform: translateX(-10rem);
+    margin-left: 10vw;   
+}
+
+.Paralax #slogan_3{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    line-height: 0.8em;
+    white-space: nowrap;
+    transform: translateY(-10rem);
+    transform: translateX(-10rem);
+    margin-left: 10vw;   
+}
+
+
+.Paralax .Titulo_paralax {
+	-webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
 .Paralax #Montania_2{
     transform: translateY(200px);
 }
@@ -150,7 +176,7 @@ main{
 
 .contenido_preferencias{
     background: rgb(241,159,223);
-background: linear-gradient(180deg, rgba(241,159,223,1) 0%, rgba(47,22,97,1) 100%);
+    background: linear-gradient(180deg, rgba(241,159,223,1) 0%, rgba(47,22,97,1) 100%);
 }
 
 .mensaje_presentacion{
@@ -179,9 +205,9 @@ background: linear-gradient(180deg, rgba(241,159,223,1) 0%, rgba(47,22,97,1) 100
     top: 0;
 }
 
-.acordeon{
-    position: sticky;
-    top: 0;
+.Seccion_ilustraciones{
+    margin: 10rem 5rem 10rem 5rem;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7 ;
 }
 
 /* Diseño_pagina */
@@ -280,6 +306,39 @@ background: linear-gradient(180deg, rgba(241,159,223,1) 0%, rgba(47,22,97,1) 100
     }
   }
 
+  @-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(300px);
+              transform: translateZ(400px) translateY(300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck-bottom {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(300px);
+              transform: translateZ(400px) translateY(300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+
   @media (max-width: 1080px){
     .Paralax #slogan{
         position: absolute;
@@ -287,13 +346,20 @@ background: linear-gradient(180deg, rgba(241,159,223,1) 0%, rgba(47,22,97,1) 100
         text-align: center;
         line-height: 0.8em;
         white-space: nowrap;
-        transform: translateY(-2rem);
-        transform: translateX(-2rem);
+        transform: translateY(-7px);
+        transform: translateX(-7px);
         margin-left: 10vw;   
     }
 
     .texto_presentacion{
         padding: 2rem;
+    }
+
+    /* ilustraciones */
+
+    .Seccion_ilustraciones{
+        margin: 5rem;
+        box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7 ;
     }
 
    }
@@ -305,9 +371,9 @@ background: linear-gradient(180deg, rgba(241,159,223,1) 0%, rgba(47,22,97,1) 100
         text-align: center;
         line-height: 0.8em;
         white-space: nowrap;
-        transform: translateY(-2rem);
-        transform: translateX(-2rem);
-        margin-left: 10vw;   
+        transform: translateY(-1rem);
+        transform: translateX(-1rem);
+        margin: 10vw;   
     }
 
     .mensaje_presentacion{
@@ -318,5 +384,11 @@ background: linear-gradient(180deg, rgba(241,159,223,1) 0%, rgba(47,22,97,1) 100
         padding: 3rem;
     }
 
+    /* ilustraciones */
+
+    .Seccion_ilustraciones{
+        margin: 1.5rem;
+        box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7 ;
+    }
    }
   
